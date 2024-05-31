@@ -1,0 +1,433 @@
+.head{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(254, 249, 249);
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 5px solid rgb(250, 250, 250);
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color:rgb(239, 233, 233);
+    color: rgb(13, 13, 13);
+    position: relative;
+    background-image: url(https://previews.123rf.com/images/mallinka/mallinka1306/mallinka130600008/20307861-yellow-taxi-background-with-city-landscape-and-taxi-sign.jpg);
+    background-size: contain;
+   
+    
+}
+.head1{
+    font-size: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.head2{
+    height: 100px;
+    width: 50%;
+    /* background-image: url(https://media.istockphoto.com/id/1341376274/photo/abstract-yellow-and-black-are-light-pattern-with-the-gradient-is-the-with-floor-wall-metal.webp?b=1&s=170667a&w=0&k=20&c=5g3bMo_fF_LFFfPhbbNQw_GfOaHPJpu5auvPZJBP7bQ=); */
+    margin-left: 50%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: rgb(250, 246, 246);
+    text-align: center;
+    margin-left: 50%;
+    display: flex;
+    align-items: center;
+    border-left: 2px solid goldenrod;
+    background-color: black;
+    
+}
+.list{
+    display: flex;
+     margin-top: 0px;
+    text-align: center;
+    align-items: center;
+     
+}
+.taxi{
+    height: 500px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    background-color: rgb(19, 19, 19);
+    background-image: url(https://images.unsplash.com/photo-1556122071-e404eaedb77f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGF4aXxlbnwwfHwwfHx8MA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+   justify-content: center;
+   display: flex;
+   
+}
+.div3{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(251, 250, 250);
+    height: 600px;
+    width: 100%;
+    position: relative;
+    
+}
+.div31{
+    margin: 50px;
+    position: absolute;
+    background-color: blueviolet;
+    height: 400px;
+    width: 350px;
+    background-image: url(https://st2.depositphotos.com/1003434/10790/i/950/depositphotos_107900874-stock-photo-smiling-driver-in-a-taxi.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.div32{
+    max-resolution: 200px;
+    position: absolute;
+    background-color: brown;
+    height: 300px;
+    width: 250px;
+    margin: 200px;
+    background-image: url(https://images.pexels.com/photos/2955376/pexels-photo-2955376.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    border-radius: 20px;
+    
+    
+}
+.div33{
+    
+    padding: 0px;
+    height: 500px;
+    width: 50%;
+    background-color: rgb(250, 247, 250);
+    margin-left: 600px;
+    position: absolute;
+    margin-top: 30px;
+    /* background-image: url(https://images.unsplash.com/photo-1556122071-e404eaedb77f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGF4aXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover; */
+    
+}
+.head2 li a:hover{
+    color: rgb(6, 121, 52);
+
+}
+.head2 li a{
+    color: aliceblue;
+}
+.contact{
+    font-size: larger;
+    margin-left: 0px;
+    
+   
+}
+.list li img{
+    margin-top: 10px;
+    vertical-align: bottom;
+}
+.list li a{
+    margin: 20px;
+}
+.list li a img{
+    vertical-align: bottom;
+}
+.div3 .div33 span{
+   align-content: center;
+   padding-top: 100px;
+  margin: 200px;
+  
+   font-size: larger;
+}
+.div4{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    position: relative;
+    
+    
+}
+.div4 .service{
+    
+   padding-top: 100px;
+ margin-left: 550px;
+  text-align: center;
+   font-size: 60px;
+   font-weight: 900;
+   font-size: xx-large;
+   color: #de9607;
+}
+.div4 p{
+    margin: 10px; text-align: center;
+    color:rgb(12, 12, 12);
+    font-size: 60px;
+    font-weight: 900;
+}
+.div5{
+    height: 500px;
+    width: 95%;
+    background-color: rgb(144, 128, 159);
+    margin-left: 40px;
+    display: flex;
+    position: absolute;
+    
+}
+.div51{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(226, 215, 215);
+    margin-top: 50px;
+    margin-left: 20px;
+    position: absolute;
+    background-image: url(https://media.istockphoto.com/id/1154373349/photo/good-looking-man-entering-ride-sharing-car.jpg?s=612x612&w=0&k=20&c=buhwQsbXFEtbonACUafN2zm6W3rWzYdXVDOtxef3B54=);
+    background-size: cover;
+    vertical-align: baseline;
+}
+.div53{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin-left: 500px;
+    position: absolute;
+    margin-top: 50px;
+    background-image: url(https://img.freepik.com/free-photo/taxi-driver-female-client-interacting-formal-way_23-2149204538.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1701561600&semt=ais);
+    background-size: cover;
+}
+.div55{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(185, 10, 10);
+    margin-left: 900px;
+    position: absolute;
+    margin-top: 50px;
+    background-image: url(https://media.istockphoto.com/id/665593314/photo/business-couple-in-the-car.jpg?s=612x612&w=0&k=20&c=FukghnxptL62Xw7l-VcE2A1tDYTqYoyGxjvRtabFDaI=);
+    background-size: cover;
+}
+.div52{
+    height: 200px;
+    width: 250px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 25px;
+    background-image: url(https://img.freepik.com/free-vector/taxi-app-concept-illustration_52683-36028.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1701561600&semt=ais);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.div54{
+    height: 200px;
+    width: 250px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 25px;
+    background-image: url(https://img.freepik.com/premium-vector/electric-car-taxi-city-transportation-service-vector-illustration-man-character-look-vehicle-transport-urban-autonomous-technology_169479-2969.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div56{
+    height: 200px;
+    width: 250px;
+    background-color: aliceblue;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 25px;
+    background-image: url(https://www.a1droptaxi.in/img/bg1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div6{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    padding: 0px;
+    margin-top: 150px;
+    display: flex;
+    position: relative;
+    
+}
+.div61, .div62,.div63,.div64{
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    margin:60px;
+    background-color: rgb(250, 246, 246);
+    position: absolute;
+    display: flex;
+
+}
+.div62{
+    margin-left: 380px;
+}
+.div63{
+    margin-left: 720px;
+    justify-content: center;
+}
+.div64{
+    margin-left: 1050px;
+}
+.span{
+    margin-left: 400px;
+    font-size: xx-large;
+    font-weight: 900;
+    color: #de9607;
+}
+.div611{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(94, 79, 79);
+    border-radius: 90%;
+    position: absolute;
+    display: flex;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEX///8AAAAwMDD8/PxxcXH09PT39/fu7u4hISElJSXe3t7y8vJPT0/o6OjDw8OVlZXi4uKKiop5eXmpqanR0dFbW1uDg4OdnZ2vr6/BwcHX19fJyck2NjZERERpaWm0tLQbGxtFRUULCwtfX19ra2uHh4c7OzuYmJgqKip9fX1MTEwXFxf/LQkPAAALyElEQVR4nO1d6UIqOww+CAz7ouwCIqi48P7vd0EvhyTNdE2n4Jnvp87Sj2mTNFv//ClRokSJEiVKFI2sXU89hKh43Fcqle4w9TDi4b7yg3nqgURC9lU54yH1WKJgWAHYVlMPRx6LCkKrl3pA0hhUKPqphySKrKsQ/F2Lsc/wO6LZTj0wKdR4gkfcpx6aCJa5/E4C5zH18IJRf9URPGKaeoSBmBn4nbBJPcgAbJ4tCFYq+1udqv07js4D98enW9T//T1HZdXIkTy1W9McmxXP4/S/Oqf+j5uqZepB26Onmmg/OMuUEf/v1vw27PHFJIff/rLYhh8510yvfnc8ZgXJN2bowre8y+5GjURjN6O6qO1y+XWptGzzK/WE9ewKv2Q2fs+bnN9YMPfkrMZv7B42V/Qp25v7rY7d0cDmJUg93yQ/oVmbjbNCGIxfJ5OHwWgzHjbgC6uN4XgzezWQO+Ip/2s8rk037ybTUX/YQXdlvfZyPhrUJpNPCS2aPeFXHlp3+/1+ZWePHbEeax/fz5OqFK31V3cy+Vp/4LUusP9iTRNr7M1q3NJ4zcNnKMHHkLdbmikb1oC1RaiVMPd/9ZP9lqFvXI/5CNUs9+ZXsHh+75gfDvD4ZH4mj1CfnV6g5+HFw4rujFpe7woNEby4v7K78dVi7YHHihwFMtRaKgxe5m6zUyH5nm/NxWHI7+V47O/1us8SvbnTmnwPfJ2lkDtMBktJC2s4qtmqyVCdb5wzzZfP+TiKldxYvL9aTNm3wNeApd98qP3Fw/T+fbQYFxCy7o0Xs8G09tJdr+7+AhIPdbgCCf4lMmIZAIahZlvz8qi1yNhkABiGhrAO/xLDvcjYZCDIcPfrGVZKhmkAhlWTe9RKZGwyAMN6lXvUlTJ8kXvUncjYZFAy9HvUlTJ8knvUh8jYZCDI8PDrGQLLuyUyNhnEYdgUGZsMSoYOAAyfBUYmBcAw1Kb5pxgeRMYmg3+KYejeAjDciYxNBiVDBwCGFZGxyaBk6IDfz7AVwrDa629mg8FoMeZCbo3+7O1zOpj3PZJLr4JhdQOjqx8POCy8fABP3j1tHAMgV8BwzASP7880Mib9e+IUGE/O8HGrUjjh7ZQaUs/Jflg5cAS3hfpLvRhOeQonLNuaf06sI+RpGbYDkpxsU0eSMtz486tYx6xTMrSpIdHBKuBZTcgwlKBdXB4yDI0BOzIMm6I/mJlfk47hkI7WC+asnHQMm3SwfjAmVCZjqKjy7mjZ6fSWMz4Nd7po1zvtxb3yuxgHnYohnaM1UEKi5jiCnMJHmltmssVTMSRZfjiBto3TDrvY1CYSyhRPytIwbKNB3im7BfgDKBR6OEHd8BEhQ8GcKBNDVBD0zOTxXeYi8416iKHBtEnE0PgRqudAFhsvxyXt+lelYYgqJ/m01vN34re7qCZarxPTMPwEV+YF4ha60Xcgw4H2XWkYwuIXrpDrG6fay1yrDC5kfRJdPQVD+FKN/3+iiTOM4UfU2jXwZaEZtPDLaC+Ew9NMsarOrQIZavVFEoZQZ/vWLD/ZPiMJQ7gx9K2Zg8/QdlqAQik0k92aIazf9u0fAPsQaUthJBlCa1J7IXSh+RZbQZWq3QcnYQiLs31nKWSoLRRppGAI94a+nTyg4aYt9pFkCCsbtCoKVmb7FgfBYketpIEM9daPGdYMJbQFnOla37AkQ+h/0DKE5bQW3jIWW/AMrTyGWy1JhtrSLSjePFM+oW9C/zLIULJ2TV+cBi1Yv+pjaPjpk1ljMdRHMaHJlbu30AIuQ733Bfq8fJfEGVtrhlCY+k1T6KrRt8eSZPgFnqWP7iFHi0+pLOodqa9ohAwlq2QNdZRwIfr8sPBVhsoH6NaTrHQ2MES9k9zfhJyRBhWQiCEaonuVPCpvNli2UPlKMjRtiqDudE6CQ7+PqdRRkiFMGjExRD00XF+MQhemGTB2uNYEOHeM2z44SINuocBNeE1XSzKEblrjtg/JGrcMc0TQaGpChqGNJaEP08gwQ+N02WHgJmjGzw83kqEMoXPCvLEduA30L3AvRfNuAW7VQru3wDGbGeKP2LV9Cb7Nwm6HFmJou0XHrTvuwWa7dcMhYAspDN2Ooc1PoQaw+bVw6y673xfPbZsCMnhHaBclKMVt1jSKPdi9nvTCtvkmUDqENnd1dk5gqbgzSxscHLcLy0NLK6zjD94T2UUI8ICNhac4um1psq9cb9AAirmt1R1knho6otTx1XaOSOjQCa+ogxtvOwVHWpNOdNdmpL+XnfSF3z200Bmb3paqh2RAaShmJNnWbpYg8RfeOHHg/rQGHnb+z5zRtpCWVhCcJX5OLwgoy23r1clSzPuK9AtaR3TgyglvUYUsKlvJTNvLshQ7lKCtDQ39UBLl11uPMfyhDZMZiUrnsr17/h3cJHEMCFyIWrmIQHv17anDnCh6l/0kjPiFL0Oys7HvOkdb2R2wdUWXqkMnMWQjSHSKQ/ES++1mVWkmB+WIci6LQ5stuMhlKujhhLPe8h0pKoUllxmlZPS7dBWBk1TmGBfkQnOYFXWlCfLZdFcKg1YOwSq0gEVaUWKh5xLLUvTdj+SrftE/f7hE49DP48YkF1vwSKeSdWp1fp9vMVZa07t8QSwWghtB/w80TZ0cP5nau1Jt+bp2iqeiwchMUvKzOfaHhN+fh4PwOgElxLvdqgHK3nVMBzI1sXUsAUXaOTRJ4QKknl27pehb5rqK+y28WfD8HTQ1XJ1bupbgrvEb1CLe3oY0Ay1v55Y3+QVtzt7cr6C7dUDjck7MU6zsHzw7zzK0XGT7VqGZ5ij9juhwHY+77lk3yJyXPa8VVQr4TA+1gtvDpHQLMjoCbWl9uu+Rc0i9NnaojC80j4YC78h9Yuc9OL47n30d3pGIn371iR7v1X/9UoPo1ekBx+BCExRU4JXo14zirDb8wrbIdIjR8AjHwPyidr2T6bD1i6XgOHGMYyGR/e2tjAbe0wttuuL0w8VHzhR9DCxWN1LbJgLslSj2SEZ8ZpGkRQqBPYDFNorEDpFoZ7Lhk2+lXAg2wLpKWtlfQLJCJPzNdsAGUczZQ863Cg2h24KEOKIerot9EkWdB4EjBHFPgSa/Zmh1ox2wkyB2C04SGQxNKrMBiXFEUoUXEH9n/LM0ybSJb2kQedqKfYRvFfvNi2gMT06ddndpuIH4Wws5wJvky8SVNljVC/tmckHyZeT3ohcQwRbaI9EWNMcgnm1DnDvFmcL0APhYRgYN9hd41DM9PD3O+qeO5OLs4D9qMkkMtUjzMgvec5PjNJ/lD9Gjqz3Wrtf2/eLHe9AkgOJP16BHITsF483oHMjzi9qpAdCYmeiRXkpWX7Feof9BBepe7is26BcsYg/DgCYgilFs0ISUmGaTFrSjtdBapGqicN8swJZSlDgxV4kYF2WNcqjSU6ab4SJPOa8+PBs/BBkVCcG2I7V5o29ATVBymQPlupK3kf58V5ViiGSnKfBXQJCRfAGynapY2xKTyFAp+kp3pRVv6jV4hmKBeJ4UpiRmFr2dyEddyZRduyvGhvKQtGoCI6N6sbJz1RqKGgw+Mk4WVbVjt1sugZrdl9KSYaGkpzvJmzfl7rgRJi+oB8tMbA3xqppIHC/MGwC6marYuhnbSvZ+lHQZASj62k75z9XbokfQfMGM1Swv1I77u0LCL35QKtKMWYg9pXRILeS7KvQU80bvqmZSwK9Jz3NgxGJ+4k1VnaEpPRa2+FRH/cEvrEfmgxcUIAwDI29Y6c+I3ripMnJQTUzGyOzQMtoj1vLRj0jImNHv8OfhPvQVGmr5YBYjrMOqM2cHFhseDAdXCXQ31PyzecVqnseQO/vp255uqEWW17YZtAQ3E1dLVoSmC0yEgZMmLJoFpiDIgjE6OYSeHZ4UnEyluAkzJh9KewiK1c3JUIqMEzgX3IChbYbm1MfnG7FDTejkVazflJmmB6s3DqKVyqnB2DG/YgVCkNW4ulkln48q1I03aqWZ0DtXgU5jp7+nQ/vkenq7eR2vxy/RgCVKlChRosRt4T/WpYcXu/Pr5QAAAABJRU5ErkJggg==);
+    background-size: contain;
+    margin-top: 180px;
+
+}
+.div612{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 90%;
+    position: absolute;
+    display: flex;
+    background-image: url(https://logowik.com/content/uploads/images/car-wash6885.logowik.com.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 180px;
+}
+.div613{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 90%;
+    position: absolute;
+    display: flex;
+    background-image: url(https://uxwing.com/wp-content/themes/uxwing/download/transportation-automotive/car-vehicle-insurance-icon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 180px;
+
+}
+.div614{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 90%;
+    position: absolute;
+    display: flex;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa91JTCqCtQ8g1sTqyhfifPK-E0LaGiP_Tuy9__q-YX0XLEIYKD2GDLTy_7LYMjRS8LTA&usqp=CAU);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 180px;
+
+}
+#box::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 190px;
+    height: 3px; 
+    background-color: black;
+    transform: translateY(70%);
+}
+.div7{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://wallpapercosmos.com/w/full/a/1/c/1280007-3840x2160-desktop-4k-taxi-wallpaper.jpg);
+    background-size: cover;
+    font-size: xx-large;
+    font-weight: 900;
+    color: aliceblue;
+    text-align: right;
+    
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(9, 9, 9);
+    margin-top: 20px;
+    color: rgb(10, 11, 12);
+    position:relative;
+    
+    
+}
+.div8{
+    height: 300px;
+    width: 20%;
+    background-image: url(https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/booking_car_1-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 1050px;
+   
+    background-color: black;
+    background-position: center;
+    
+}
+.div81{
+    height: 200px;
+    width: 70%;
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    position: absolute;
+    margin-top: 0px;
+    padding: 0px;
+   
+    color: white;
+    text-align: center;
+   
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(15, 15, 15);
+    margin-top: 10px;
+    margin-left: 30px;
+
+
+}
+#insta{
+    background-image: url(https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-icon-png-image_6315974.png);
+    background-size: contain;
+}
+#fb{
+    background-image: url(https://www.freeiconspng.com/uploads/facebook-logo-3.png);
+    background-size: contain
+    ;
+}
+#twi{
+    background-image: url(https://www.freeiconspng.com/uploads/-van-nederland-elgie-gaat-haar-ontwikkeling-posten-op-twitter-24.png);
+    background-size: cover;
+}
+.footer-section{
+    flex: 2;
+    color: white;
+    margin: 40px;
+    
+}
+a :hover{
+    text-decoration: underline;
+    color: rgb(39, 115, 181);
+}
+a{
+    color: yellow;
+}
+.h1{
+    margin-left: 40px;
+}
+.tx{
+    height: 20px;
+    width: 100px;
+    background-color: yellow;
+    margin-left: 500px;
+    position: absolute;
+}

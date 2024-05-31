@@ -1,0 +1,566 @@
+/*navbar*/
+.main 
+{
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+}
+ul {
+
+    height: 100px;
+    width: 100%;
+    background-color:rgb(239, 233, 233);
+    color: rgb(13, 13, 13);
+    position: relative;
+    background-image: url(https://previews.123rf.com/images/mallinka/mallinka1306/mallinka130600008/20307861-yellow-taxi-background-with-city-landscape-and-taxi-sign.jpg);
+    background-size: contain;
+list-style-type: none;
+/*
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: yellow;
+
+box-shadow: 1px 1px 5px rgb(9, 9, 9);
+position: sticky;
+top: 0px;
+left: 0px;*/
+}
+
+li {
+float: left;
+padding-left:30px;
+
+}
+
+li a {
+display: block;
+
+color: rgb(41, 16, 16);
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+transition-duration: 1s;
+margin-left: 100px;
+
+}
+
+li a:hover {
+/* background-color:white; */
+/* text-shadow: 0px 0px 5px white; */
+transform: scale(1.2);
+color: darkred;
+text-decoration: none;
+}
+
+ .logo 
+{
+   font-size: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+  margin: 0px;
+  float: left;
+  font-family: Elephant;
+  color: rgb(45, 39, 3);
+  letter-spacing: 3px;
+  -webkit-background-clip: rgb(157, 14, 14);
+  background-clip: content-box;
+  font-variant: small-caps;
+}
+
+/*-----navbar end------*/
+
+/*-----car image----*/
+
+.img 
+        {
+            height: 700px;
+            width: 100%;
+            background-color: #ede6eb;
+            /* background-color: rgb(171, 165, 41); */
+            left: 0px;
+            top: 0px;
+            margin: 0px;
+            padding: 0px;
+            /* position: fixed; */
+            /* margin-top: 10px; */
+            /* background-image: url('https://pngimg.com/uploads/taxi/taxi_PNG27.png'); */
+            background-image: url(https://pngimg.com/d/taxi_PNG16.png);
+            background-size: 800;
+            background-position: right;
+            background-repeat: no-repeat;
+            color:black;
+        }
+
+        .img h1 
+        {
+            font-size: 50px;
+            top: 0px;
+            left: 0px;
+            font-weight: bold;
+            font-family: serif;
+            word-spacing: 10px;
+           position:static;
+           padding-top: 200px;
+           padding-left: 45px;
+        }
+
+        .sec_hading
+        {
+            line-height: 30px;
+            font-size: 48px;
+            margin-left: 50px;
+            margin-top: 190px;
+            font-weight: bold;
+            font-family: serif;
+            word-spacing: 10px;
+            /* color: rgb(109, 19, 19); */
+        }
+        .quote
+        {
+            margin-top: 25px;
+            margin-left: 51px;
+            font-size: 17px;
+            font-family:sans-serif;
+            letter-spacing:1px;
+            font-weight: 600;
+        }
+        .img .btns{
+            margin-top: 20px;
+            margin-left: 50px;
+            padding: 15px 25px;
+            font-size: 13px;
+            font-weight: bolder;
+            letter-spacing: 1px;
+        }
+
+        #learnmore
+        {
+            background-color: orange;
+            /* border: none; */
+            transition-duration: 2s;
+            border-radius: 10px 0px 10px 0px;
+        }
+
+        #learnmore:hover
+        {
+            background-color: black;
+            color: white;
+        }
+
+        #find_taxi
+        {
+            background-color: transparent;
+            /* border: none; */
+            transition-duration: 2s;
+            border-radius: 10px 0px 10px 0px;
+            color: blueviolet;
+        }
+
+        #find_taxi:hover 
+        {
+            background-color: orange;
+            color: black;
+        }
+
+/*navbar first div end*/
+/*About us*/
+.about 
+{
+     margin-top: 20px;
+    
+    /* z-index: -1; */
+     /* position:fixed; */
+}
+.about_Img1{
+    margin: 50px;
+    position: absolute;
+    background-color: blueviolet;
+    height: 400px;
+    width: 350px;
+    background-image: url(https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/about_2_1-4-1.png);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    /* border-radius: 20px; */
+}
+.about_Img2{
+    /* max-resolution: 200px; */
+    position: absolute;
+    background-color: brown;
+    height: 300px;
+    width: 250px;
+    margin-top: 200px;
+    margin-left: 300px;
+    background-image: url(https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/about_2_2-4-1.jpg);
+    background-size: cover;
+    /* border-radius: 20px; */
+    border: 5px solid white;
+    /* border-radius: 20px; */
+    z-index: -1;
+}
+
+.about_text 
+{
+    width: 50%;
+     background-color:rgb(144, 128, 159); 
+    /* background-color: rgb(249, 248, 248); */
+    height: 400px;
+    margin-left: 600px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: -1;
+}
+
+.about_text h3{
+   font-size: 50px;
+   margin-left: 10px;
+}
+.about_Inside
+{
+    height: 70px;
+    width: 80%;
+    background-color:white;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgb(27, 24, 24);
+    border-radius: 20px;
+    text-align:left;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 6px;
+}
+
+.about_text .call 
+{
+    height: 70px;
+    width: 70px;
+    background-color: orange;
+    margin-left: 10px;
+    margin-top: 25px;
+    position: relative;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: black;
+    float: left;
+}
+
+
+.callus 
+{
+    
+    margin-left: 35px;
+    font-weight: 10px;
+    position: absolute;
+    margin-top: 31px;
+    opacity: 0.8;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+ .num 
+{
+  margin-top: 55px;
+  margin-left: 35px;
+  font-size: 25px;
+  opacity: 1.0;
+  position: absolute;
+}
+
+#moreinfo
+{
+  margin-top: 160px;
+  position: absolute;
+  padding:13px 30px;
+  font-weight: bold;
+  background-color: orange;
+  border-radius: 20px 0px 20px 0px;
+  transition-duration: 1s;
+}
+
+#moreinfo:hover 
+{
+  background-color: black;
+  color: white;
+  
+}
+
+/*our services*/
+
+.space 
+{
+  left: 0px;
+  height: 225px;
+  background-color: white;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.Services
+{
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  margin-top: 550px;
+  height: 500px;
+  z-index: -1;
+}
+.serv_Name 
+{
+  color: rgb(182, 136, 20);
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  letter-spacing: 2px;
+}
+.service 
+{
+  height: 100px;
+  width: 100%;
+  /* background-color: black; */
+  position: relative;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.serv 
+{
+  height: 300px;
+  width: 20%;
+  margin: 80px 0px 0px 10px;
+  /* padding-top: 100px; */
+
+  background-color: red;
+  /* position: relative; */
+  transition-duration: 1s;
+
+}
+
+.img1
+{
+  background-image: url('https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/service_1_1-4-1.jpg');
+}
+
+.img2 
+{
+  background-image: url('https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/service_1_3-4-1.jpg');
+}
+
+.img3 
+{
+  background-image: url('https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/service_1_4-4-1.jpg');
+}
+
+.img4 
+{
+  background-image: url('https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/service_1_2-4-1.jpg');
+}
+.serv:hover 
+{
+  transform: scale(1.1);
+}
+
+.serv_btn
+{
+  margin-top: 100px;
+   padding: 0px;
+   height: 100px;
+   width: 100%;
+   /* background-color: red; */
+   position: relative;
+   display: flex;
+   justify-content: space-around;
+}
+
+.serv2
+{
+  height: 80px;
+  width: 20%;
+  margin: 7px 0px 0px 12px;
+  /* background-color: #717171; */
+}
+
+.serv2 p 
+{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: orange;
+  background-color: black;
+}
+
+.serv2 input
+{
+  background-color:white;
+  padding: 8px 19px;
+  text-align: center;
+  margin-left: 60px;
+  transition-duration: 1s;
+  background-color: orange;
+  border-radius: 10px 0px 10px 0px;
+  font-weight: bold;
+}
+
+.serv2 input:hover 
+{
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+/*Contact Us*/
+
+.container-fluid
+{
+  height: 400px;
+  width: 100%;
+  z-index: 4;
+  margin-top: 1200px;
+}
+
+.family_text 
+{
+  
+  background-color: black;
+  height: 450px;
+}
+
+.family_img
+{
+  background-image: url(https://themeholy.com/wordpress/taxiar/wp-content/uploads/2023/09/cta_bg_2-4-1.jpg);
+  background-size: cover;
+
+}
+
+.family_text p
+{
+  font-size: 40px;
+  padding-left:80px;
+  margin-top: 70px;
+  color: orange;
+}
+
+.family_text p
+{
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 1px; 
+}
+
+.family_text .sp1
+{
+  /* color: white; */
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.family_text .sp2
+{
+ color: black;
+}
+
+.comfort 
+{
+  color: orange;
+  font-weight: 100;
+}
+
+.family_text .fam 
+{
+  color: white;
+  font-weight: 100;
+}
+.family_call 
+{
+  margin-top: 40px;
+  height: 80px;
+  width: 80px;
+  background-color: orange;
+  margin-left:80px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 23px;
+  font-size: 25px;
+}
+
+.call_2
+{
+  color: white;
+  height: 30px;
+  width: 40%;
+  margin-left: 20px;
+  position:absolute;
+  margin-top:-20px;
+  font-size: 20px;
+}
+
+.num_2 
+{
+  margin-left: -20px;
+  color:orange;
+  line-height: 0px;
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 27px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+#contact_us
+{
+  margin-top: 50px;
+  margin-left: 15px;
+  font-size: 15px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: orange;
+  border-radius:10px 0px 10px 0px;
+  transition-duration: 2s;
+}
+
+#contact_us:hover 
+{
+  background-color: white;
+  color: black;
+}
+
+
+/* Taxi Booking */
+.Taxi_Book
+{
+  height: 300px;
+  width: 100%;
+  left: 0px;
+  background-color: black;
+  margin-top:2000px;
+  position: ;
+}
+.navbar-brand {
+    font-size: 50px;
+    font-family: Elephant;
+    color: rgb(45, 39, 3);
+    letter-spacing: 3px;
+    font-variant: small-caps;
+}
+.nav-item{
+  color: brown;
+}
