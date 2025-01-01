@@ -1,0 +1,61 @@
+There are 2 types of Xpath:
+1.Absolute xpath
+2.Relative xpath= 7types of xpath
+
+1.xpath by attribute
+2.xpath by text(//tagname[text()='text value']
+3.xpath by contain
+4.xpath by group index
+5.Independent and dependent xpath
+6.xpath by index
+7.core relative xpath
+
+Keywords:
+1) .---current project
+2) /----immediate child
+3) //----any child
+4) Index value starts from '1'
+
+++  Selenium (Parent)  ++
+jre (Immediate child)
+src (Immediate child)
+referenced libraries (Immediate child)
+Drivers (Immediate child)
+     chromedriver.exe (any child)
+jar (Immediate child)
+     Selenium Server 4.16.1 (any child)
+
+
+++ What is Realtive Xpath ?  
+ -Writting the xpath from any child of the documents(html ented by '//'
+
+++ Why ?:
+1.When elements is having only text.
+2.When element is having duplicates.
+3.When elements is dynamic.
+
+
+++ 1) Xpath by Attribute:
+ Syntax:
+        //tagname[@Attribute name = 'Attribute value']
+         AND
+         OR (findelements())
+         NOT
+
+++  Disadvantages of Xpath by Attribute:
+*When elements is having only text.
+*When element is having duplicates.
+
+
+
+input[value='B']----B
+input[type='Button']----Abutton
+A===//input[@type='text' and @value='A']
+ABbutton=====//input[@type='button' or @value='B']
+AAbutton====input[value='A']
+
+
+
+
+
+
